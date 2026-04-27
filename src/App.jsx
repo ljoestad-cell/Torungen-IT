@@ -43,7 +43,7 @@ export default function App() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-              Torungen IT hjelper bedrifter med profesjonelle nettsider, Microsoft 365, sikkerhet og praktisk IT-drift — uten komplisert språk og unødvendig styr.
+              Torungen IT hjelper HUNDER med profesjonelle nettsider, Microsoft 365, sikkerhet og praktisk IT-drift — uten komplisert språk og unødvendig styr.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
