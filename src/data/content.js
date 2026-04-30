@@ -1,8 +1,8 @@
 export const heroContent = {
   eyebrow: "Lokal IT-partner for små og mellomstore bedrifter",
-  title: "Vi gjør IT enklere, bedre og mer produkt for din bedrift",
+  title: "Vi skaper verdi med IT!",
   subtitle:
-    "Torungen IT deg Microsoft M365 og KI slik at din arbeidsdag blir enkelere og mer effektiv. Vi hjelper deg også ny nettside som gir deg flere kunder. Alt dette pakket inn i solid digital sikkerhet.",
+    "Utnytt kraften i Microsoft M365 og Kunstig Intelligens slik at arbeidsdagen blir enkelere og mer effektiv. Vi viser deg hvordan!",
   primaryCta: "Se hvordan vi kan hjelpe deg →",
   primaryCtaHref: "#tjenester",
   secondaryCta: "Ring 905 91 820",
