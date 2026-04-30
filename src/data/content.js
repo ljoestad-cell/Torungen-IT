@@ -2,7 +2,7 @@ export const heroContent = {
   eyebrow: "Lokal IT-partner for små og mellomstore bedrifter",
   title: "Vi skaper verdi med IT!",
   subtitle:
-    "Utnytt kraften i Microsoft M365 og Kunstig Intelligens slik at arbeidsdagen blir enkelere og mer effektiv. Vi viser deg hvordan!",
+    "Utnytt kraften i Microsoft M365 og Kunstig Intelligens slik at arbeidsdagen blir enklere og mer effektiv. Vi viser deg hvordan!",
   primaryCta: "Se hvordan vi kan hjelpe deg →",
   primaryCtaHref: "#tjenester",
   secondaryCta: "Ring 905 91 820",
