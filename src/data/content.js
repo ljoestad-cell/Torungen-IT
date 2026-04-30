@@ -1,24 +1,24 @@
 export const heroContent = {
   eyebrow: "Lokal IT-partner for små og mellomstore bedrifter",
-  title: "Vi skaper verdi med IT!",
+  title: "Vi leverer IT med verdiøkning til din bedrift!",
   subtitle:
-    "Utnytt kraften i Microsoft M365 og Kunstig Intelligens slik at arbeidsdagen blir enklere og mer effektiv. Vi viser deg hvordan!",
+    "Hvordan? Vi utnytter kraften i Microsoft M365 og Kunstig Intelligens slik at arbeidsdagen blir enklere og mer effektiv.",
   primaryCta: "Se hvordan vi kan hjelpe deg →",
   primaryCtaHref: "#tjenester",
-  secondaryCta: "Ring 905 91 820",
+  secondaryCta: "Ring oss 90 59 18 20",
   secondaryCtaHref: "tel:90591820",
   stats: [
     {
-      number: "15k+",
-      label: "Webside fra",
+      number: "Ferdig Nettside",
+      label: "Fra kr 14.990",
     },
     {
       number: "M365",
       label: "Oppsett & drift",
     },
     {
-      number: "SMB",
-      label: "Spesialist",
+      number: "KI",
+      label: "Konkrete gevinster",
     },
   ],
   visual: {
