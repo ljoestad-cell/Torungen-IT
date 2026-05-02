@@ -6,11 +6,14 @@ import WebDesign from './components/WebDesign'
 import Process from './components/Process'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
+import Websites from './pages/Websites'
+import AI from './pages/AI'
+import M365 from './pages/M365'
+import Security from './pages/Security'
 
-export default function App() {
+function HomePage() {
   return (
-    <main className="min-h-screen bg-[#07111f] text-white">
-      <Navbar />
+    <>
       <Hero />
       <TrustStrip />
       <Services />
@@ -18,6 +21,26 @@ export default function App() {
       <Process />
       <Pricing />
       <CTA />
+    </>
+  )
+}
+
+function CurrentPage() {
+  const path = window.location.pathname
+
+  if (path === '/nettsider') return <Websites />
+  if (path === '/ai') return <AI />
+  if (path === '/m365') return <M365 />
+  if (path === '/sikkerhet') return <Security />
+
+  return <HomePage />
+}
+
+export default function App() {
+  return (
+    <main className="min-h-screen bg-[#07111f] text-white">
+      <Navbar />
+      <CurrentPage />
     </main>
   )
 }
