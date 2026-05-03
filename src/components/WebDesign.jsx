@@ -17,6 +17,13 @@ export default function WebDesign() {
               <Check text="Rask lastetid" />
               <Check text="SEO-klar struktur" />
             </div>
+
+            <a
+              href="mailto:ljoestad@gmail.com?subject=E-markedsføring"
+              className="mt-6 inline-flex rounded-full bg-[#f97316] px-7 py-4 font-black text-white shadow-xl shadow-orange-500/20 transition hover:-translate-y-1 hover:bg-[#fb923c]"
+            >
+              Vi hjelper deg også med e-markedsføring!
+            </a>
           </div>
 
           <div className="rounded-[2rem] bg-white p-5 shadow-2xl ring-1 ring-slate-200">
