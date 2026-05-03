@@ -38,7 +38,7 @@ function CurrentPage() {
 
 export default function App() {
   return (
-    <main className="min-h-screen bg-[#07111f] text-white">
+    <main className="min-h-screen bg-slate-950 text-white">
       <Navbar />
       <CurrentPage />
     </main>
