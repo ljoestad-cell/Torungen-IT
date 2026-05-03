@@ -41,7 +41,7 @@ export default function ServicePage({ page }) {
             <div className="mt-8 rounded-[1.5rem] bg-slate-950/70 p-6 ring-1 ring-white/10">
               <h3 className="text-xl font-black">{page.ctaTitle}</h3>
               <p className="mt-3 leading-7 text-slate-300">{page.ctaText}</p>
-              <a href={`mailto:${content.company.email}?subject=${encodeURIComponent(page.eyebrow)}`} className="mt-6 block rounded-full bg-cyan-300 px-6 py-4 text-center font-black text-slate-950 transition hover:-translate-y-1 hover:bg-cyan-200">
+              <a href={`mailto:${content.company.email}?subject=${encodeURIComponent(page.eyebrow)}`} className="mt-6 block rounded-full bg-[#f97316] px-6 py-4 text-center font-black text-white transition hover:-translate-y-1 hover:bg-[#fb923c]">
                 Kontakt Torungen IT
               </a>
             </div>

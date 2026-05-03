@@ -27,7 +27,7 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <a href="#tjenester" className="rounded-full bg-cyan-300 px-8 py-4 text-center font-bold text-slate-950 shadow-2xl shadow-cyan-500/25 transition hover:-translate-y-1 hover:bg-cyan-200">
+              <a href="#tjenester" className="rounded-full bg-[#f97316] px-8 py-4 text-center font-bold text-white shadow-2xl shadow-orange-500/25 transition hover:-translate-y-1 hover:bg-[#fb923c]">
                 {hero.primaryCta}
               </a>
               <a href={`tel:${company.phone}`} className="rounded-full border border-white/15 bg-white/5 px-8 py-4 text-center font-bold text-white backdrop-blur transition hover:-translate-y-1 hover:bg-white/10">
@@ -56,7 +56,7 @@ export default function Hero() {
                 </div>
 
                 <div className="grid gap-4 md:grid-cols-5">
-                  <div className="rounded-2xl bg-gradient-to-br from-cyan-300 to-blue-500 p-5 text-slate-950 md:col-span-3">
+                  <div className="rounded-2xl bg-gradient-to-br from-[#f97316] via-cyan-300 to-blue-500 p-5 text-slate-950 md:col-span-3">
                     <p className="text-sm font-bold uppercase tracking-widest">Torungen IT</p>
                     <h3 className="mt-10 text-3xl font-black">Nettsider, AI, M365 og sikkerhet</h3>
                     <p className="mt-3 text-sm font-medium text-slate-900/80">Fire områder. Samme tydelige profil. Ett trygt IT-miljø.</p>
