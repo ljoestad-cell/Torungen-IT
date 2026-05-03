@@ -1,0 +1,19 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sunOrb" cx="0.5" cy="0.4" r="0.6" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff1c9"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1024" height="1024" rx="200" fill="#0f172a"/>
+  <circle cx="512" cy="380" r="248" fill="url(#sunOrb)"/>
+  <path d="M460 246H564L588 360H436L460 246Z" fill="#0f172a"/>
+  <path d="M436 360H588L558 730H446L436 360Z" fill="#e5e7eb" stroke="#0f172a" stroke-width="20"/>
+  <path d="M458 366H566" stroke="#0f172a" stroke-width="20" stroke-linecap="round"/>
+  <path d="M512 238C520 238 526 244 526 252C526 260 520 266 512 266C504 266 498 260 498 252C498 244 504 238 512 238Z" fill="#f97316"/>
+  <path d="M382 640C382 640 452 602 512 602C572 602 642 640 642 640C642 640 682 668 708 692C734 716 768 762 768 762C768 762 564 812 512 812C460 812 260 762 260 762C260 762 292 722 318 702C344 682 382 640 382 640Z" fill="#0f172a"/>
+  <path d="M230 760C230 760 326 728 416 728C506 728 564 756 652 764C740 772 834 816 834 816C834 816 854 786 870 770C886 754 918 738 918 738C918 738 714 786 512 786C310 786 106 738 106 738C106 738 170 766 230 760Z" fill="#22d3ee"/>
+  <path d="M200 776C250 764 320 760 378 786C436 812 494 808 554 794C614 780 696 756 762 738" stroke="#ffffff" stroke-width="22" stroke-linecap="round" opacity="0.82"/>
+  <path d="M250 820C300 806 358 802 402 818C446 834 496 832 552 812C608 792 658 778 730 756" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.64"/>
+</svg>

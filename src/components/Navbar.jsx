@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-5 lg:px-8">
         <div className="flex items-center gap-4">
           <img
-            src="/logo.png"
+            src="/logo-mark-square-1.svg"
             alt="Torungen IT logo"
             className="h-14 w-14 rounded-2xl bg-white/10 object-contain p-2"
           />
