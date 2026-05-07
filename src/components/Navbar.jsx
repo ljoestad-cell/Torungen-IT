@@ -15,6 +15,7 @@ export default function Navbar() {
               {area.shortTitle}
             </a>
           ))}
+          <a href="/priser" className="transition hover:text-white">Priser</a>
         </nav>
 
         <a href={`mailto:${content.company.email}?subject=Gratis%20IT-sjekk`} className="hidden rounded-full bg-gradient-to-r from-brand-orange via-[#f97316] to-[#fb923c] px-5 py-3 text-sm font-semibold text-white shadow-glow transition duration-300 hover:scale-[1.02] md:inline-flex">

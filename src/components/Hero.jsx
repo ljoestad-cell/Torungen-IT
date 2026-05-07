@@ -42,36 +42,15 @@ export default function Hero() {
 
         <div className="relative">
           <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-cyan-300/25 to-brand-orange/20 blur-2xl" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900/80 p-4 shadow-glow backdrop-blur-xl">
-            <div className="rounded-[1.5rem] bg-slate-950/95 p-6">
-              <div className="mb-5 flex items-center justify-between">
-                <div className="flex gap-2">
-                  <span className="h-3 w-3 rounded-full bg-red-400" />
-                  <span className="h-3 w-3 rounded-full bg-yellow-300" />
-                  <span className="h-3 w-3 rounded-full bg-green-400" />
-                </div>
-                <span className="rounded-full bg-white/10 px-3 py-1 text-xs tracking-[0.25em] text-slate-300">torungen-it.no</span>
-              </div>
-
-              <div className="grid gap-4 md:grid-cols-5">
-                <div className="rounded-3xl bg-gradient-to-br from-brand-orange via-cyan-300 to-blue-500 p-6 text-slate-950 md:col-span-3">
-                  <p className="text-sm font-semibold tracking-[0.3em]">Torungen IT</p>
-                  <h3 className="mt-8 text-3xl font-black leading-tight">Nettsider, AI, M365 og sikkerhet</h3>
-                  <p className="mt-4 text-sm font-medium text-slate-900/90">Fire områder. Samme tydelige profil. Ett trygt IT-miljø.</p>
-                </div>
-                <div className="space-y-4 md:col-span-2">
-                  <MiniPanel title="Nettsider" value="Flere henvendelser" />
-                  <MiniPanel title="AI" value="Praktisk verdi" />
-                  <MiniPanel title="Sikkerhet" value="Bygget inn" />
-                </div>
-              </div>
-
-              <div className="mt-5 grid gap-4 md:grid-cols-3">
-                <PanelSquare label="M365" value="Kontroll" accent="text-cyan-200" />
-                <PanelSquare label="AI" value="Effekt" accent="text-cyan-200" />
-                <PanelSquare label="Status" value="Tryggere" badge />
-              </div>
-            </div>
+          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 shadow-glow">
+            <img
+              src="/advokatfullmektig.png"
+              alt="Profesjonell i arbeid"
+              className="h-[540px] w-full object-cover object-[55%_12%]"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/10 to-slate-950/30" />
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/20 via-transparent to-slate-950/10" />
+            <div className="absolute inset-0 bg-cyan-950/15 mix-blend-multiply" />
           </div>
         </div>
       </div>
@@ -88,25 +67,3 @@ function Stat({ number, label }) {
   )
 }
 
-function MiniPanel({ title, value }) {
-  return (
-    <div className="rounded-3xl bg-slate-900/80 p-5">
-      <p className="text-xs tracking-[0.3em] text-slate-400">{title}</p>
-      <p className="mt-3 text-lg font-semibold text-white">{value}</p>
-    </div>
-  )
-}
-
-function PanelSquare({ label, value, accent, badge }) {
-  return (
-    <div className="rounded-3xl bg-white/5 p-5 text-left">
-      <p className="text-xs uppercase tracking-[0.3em] text-slate-400">{label}</p>
-      <p className={`mt-5 text-2xl font-black ${accent || 'text-white'}`}>{value}</p>
-      {badge && (
-        <span className="mt-4 inline-flex rounded-full bg-emerald-400/15 px-3 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-emerald-200">
-          Tryggere
-        </span>
-      )}
-    </div>
-  )
-}

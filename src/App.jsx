@@ -10,6 +10,7 @@ import Websites from './pages/Websites'
 import AI from './pages/AI'
 import M365 from './pages/M365'
 import Security from './pages/Security'
+import Priser from './pages/Priser'
 
 function HomePage() {
   return (
@@ -32,6 +33,7 @@ function CurrentPage() {
   if (path === '/ai') return <AI />
   if (path === '/m365') return <M365 />
   if (path === '/sikkerhet') return <Security />
+  if (path === '/priser') return <Priser />
 
   return <HomePage />
 }
