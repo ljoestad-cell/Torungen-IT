@@ -50,12 +50,12 @@ export default function Hero() {
                   <span className="h-3 w-3 rounded-full bg-yellow-300" />
                   <span className="h-3 w-3 rounded-full bg-green-400" />
                 </div>
-                <span className="rounded-full bg-white/10 px-3 py-1 text-xs uppercase tracking-[0.25em] text-slate-300">torungen-it.no</span>
+                <span className="rounded-full bg-white/10 px-3 py-1 text-xs tracking-[0.25em] text-slate-300">torungen-it.no</span>
               </div>
 
               <div className="grid gap-4 md:grid-cols-5">
                 <div className="rounded-3xl bg-gradient-to-br from-brand-orange via-cyan-300 to-blue-500 p-6 text-slate-950 md:col-span-3">
-                  <p className="text-sm font-semibold uppercase tracking-[0.3em]">Torungen IT</p>
+                  <p className="text-sm font-semibold tracking-[0.3em]">Torungen IT</p>
                   <h3 className="mt-8 text-3xl font-black leading-tight">Nettsider, AI, M365 og sikkerhet</h3>
                   <p className="mt-4 text-sm font-medium text-slate-900/90">Fire områder. Samme tydelige profil. Ett trygt IT-miljø.</p>
                 </div>
@@ -83,7 +83,7 @@ function Stat({ number, label }) {
   return (
     <div className="rounded-3xl border border-white/10 bg-slate-900/80 px-5 py-6 backdrop-blur-sm">
       <p className="text-xl font-black tracking-tight text-cyan-200">{number}</p>
-      <p className="mt-2 text-xs uppercase tracking-[0.3em] text-slate-400">{label}</p>
+      <p className="mt-2 text-xs tracking-[0.3em] text-slate-400">{label}</p>
     </div>
   )
 }
@@ -91,7 +91,7 @@ function Stat({ number, label }) {
 function MiniPanel({ title, value }) {
   return (
     <div className="rounded-3xl bg-slate-900/80 p-5">
-      <p className="text-xs uppercase tracking-[0.3em] text-slate-400">{title}</p>
+      <p className="text-xs tracking-[0.3em] text-slate-400">{title}</p>
       <p className="mt-3 text-lg font-semibold text-white">{value}</p>
     </div>
   )

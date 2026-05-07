@@ -13,7 +13,7 @@ export default function ServicePage({ page }) {
 
         <div className="mt-12 grid gap-12 lg:grid-cols-[1fr_.75fr] lg:items-start">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">{page.eyebrow}</p>
+            <p className="text-sm font-semibold tracking-[0.35em] text-cyan-300">{page.eyebrow}</p>
             <h1 className="mt-4 max-w-4xl text-5xl font-black tracking-tight sm:text-6xl">{page.title}</h1>
             <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-300 sm:text-xl">{page.intro}</p>
 

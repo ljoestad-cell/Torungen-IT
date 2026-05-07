@@ -5,7 +5,7 @@ export default function Services() {
     <section id="tjenester" className="relative py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">Hva vi leverer</p>
+          <p className="text-sm font-semibold tracking-[0.35em] text-cyan-300">Hva vi leverer</p>
           <h2 className="mt-4 text-4xl font-black tracking-tight sm:text-5xl">Fire tydelige områder. Samme profesjonelle uttrykk.</h2>
           <p className="mt-6 text-lg leading-8 text-slate-300">
             Torungen IT hjelper små og mellomstore bedrifter med praktiske digitale løsninger som gir kontroll, trygghet og konkret verdi.

@@ -3,7 +3,7 @@ export default function Process() {
     <section className="py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">Slik jobber vi</p>
+          <p className="text-sm font-semibold tracking-[0.35em] text-cyan-300">Slik jobber vi</p>
           <h2 className="mt-4 text-4xl font-black sm:text-5xl">Enkelt fra første prat til ferdig løsning.</h2>
         </div>
 

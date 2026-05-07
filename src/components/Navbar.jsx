@@ -4,18 +4,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/95 backdrop-blur-2xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-5 lg:px-8">
-        <div className="flex items-center gap-4">
-          <img
-            src="/logo-mark-big-1.svg"
-            alt="Torungen IT logo"
-            className="h-14 w-14 rounded-2xl bg-white/10 object-contain p-2"
-          />
-          <div>
-            <p className="text-lg font-semibold tracking-tight">
-              Torungen <span className="text-brand-orange">IT</span>
-            </p>
-            <p className="text-xs uppercase tracking-[0.25em] text-slate-400">Nettsider • AI • M365 • Sikkerhet</p>
-          </div>
+        <div className="flex items-center gap-3">
+          <img src="/torungen_it_icon_transparent.png" alt="Torungen IT" className="h-14 w-14 object-contain" />
+          <img src="/torungen_it_text_transparent.png" alt="Torungen IT" className="h-14 w-auto object-contain" />
         </div>
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-slate-300 md:flex">
